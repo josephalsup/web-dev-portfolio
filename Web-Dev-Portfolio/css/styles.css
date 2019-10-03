@@ -1,0 +1,75 @@
+h1 {
+    background-color: blue;
+    color: whitesmoke;
+    padding: 10px;
+    text-align: center;
+}
+
+#picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 32%;
+    filter: grayscale(100%);
+}
+
+img {
+    border-radius: 50px;
+    align-items: center;
+    
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+table {
+    width: 300px;
+    
+    }
+
+th { 
+    border: 2px solid #efefef; 
+    }
+
+td {
+    border: 2px solid #efefef;
+    text-align: center;
+}
+
+td:nth-child(even) {
+    background: #b8d1f3;
+}
+
+#pagelink1 {
+    
+}
+
+img.linkimage1 {
+    width: 150px;
+}
+
+#pagelink2 {
+    
+}
+
+img.linkimage2 {
+    width: 200px
+}
+
+#pagelink3 {
+    
+}
+
+img.linkimage3 {
+    width: 150px
+}
+    
